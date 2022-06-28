@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="90" viewBox="0 0 90 90">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="0.86" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff9b31"/>
+      <stop offset="1" stop-color="#fec93e"/>
+    </linearGradient>
+  </defs>
+  <g id="icon-scord" transform="translate(-270 -109)">
+    <rect id="矩形_2" data-name="矩形 2" class="cls-1" width="90" height="90" rx="19" transform="translate(270 109)"/>
+    <g id="icon-scord-2" data-name="icon-scord">
+      <g id="组_4" data-name="组 4" transform="translate(-90.602 38.141)">
+        <path id="路径_12" data-name="路径 12" class="cls-2" d="M597.937,503.194a1.27,1.27,0,0,1-1.127,0L577.467,493.6v11.167a1.4,1.4,0,0,0,.735,1.255l18.575,9.786a1.284,1.284,0,0,0,1.183,0l18.575-9.786a1.41,1.41,0,0,0,.735-1.255V493.608l-19.335,9.586" transform="translate(-191.771 -376.453)"/>
+        <path id="路径_13" data-name="路径 13" class="cls-2" d="M436.9,100.852,406.086,86.777a1.139,1.139,0,0,0-.975,0l-30.8,14.075a1.608,1.608,0,0,0,0,2.833l11.39,5.2v2.294l19.9,10.785,19.9-10.785v-2.294l5.307-2.422v37.061a1.34,1.34,0,1,0,2.654,0v-38.2l-.008-.064,3.437-1.572a1.615,1.615,0,0,0,0-2.833" transform="translate(0 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>
