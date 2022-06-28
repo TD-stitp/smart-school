@@ -1,0 +1,10 @@
+.va-icon-delete {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    fill: #000
+}
+
+.va-icon-delete:hover {
+    fill: red
+}
