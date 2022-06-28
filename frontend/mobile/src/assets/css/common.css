@@ -1,0 +1,30 @@
+/* 公共样式 */
+
+body {
+  background-color: #fbfbfa;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  border: 0;
+  outline: none;
+}
+
+.card-view {
+  padding: 8px;
+  background-color: #fff;
+  margin: 0 5px;
+  border-radius: 8px;
+}
+
+.tab {
+  width: 15px;
+}

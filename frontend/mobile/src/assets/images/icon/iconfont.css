@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2904493 */
+  src: url('iconfont.woff2?t=1650072571015') format('woff2'),
+       url('iconfont.woff?t=1650072571015') format('woff'),
+       url('iconfont.ttf?t=1650072571015') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bulb:before {
+  content: "\e856";
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.icon-inform:before {
+  content: "\e6ae";
+  font-size: 18px;
+  color: #e98f36;
+}
+
+.icon-exam:before {
+  content: "\e68c";
+  font-size: 30px;
+  color: #87b5fa;
+}
+
+.icon-pass:before {
+  content: "\e600";
+  font-size: 45px;
+  color: #0e932e;
+}
+
+.icon-fail:before {
+  content: "\e601";
+  font-size: 45px;
+  color: #d81e06;
+}
+
+.icon-sucess:before {
+  content: "\e742";
+  font-size: 48px;
+  color: #24c94a;
+}
+
+.icon-jiaoyi:before {
+  content: "\e60b";
+  font-size: 25px;
+  color: #3468f7;
+}
+
+.icon-password-o:before {
+  content: "\e65b";
+}
+
+.icon-pay:before {
+  content: "\e610";
+}
+
+.icon-user:before {
+  content: "\e638";
+}
+
+.icon-exit:before {
+  content: "\e6d1";
+}
+
+
