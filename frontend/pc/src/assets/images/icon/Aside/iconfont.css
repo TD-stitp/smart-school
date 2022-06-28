@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3157760 */
+  src: url('iconfont.woff2?t=1644321303501') format('woff2'),
+       url('iconfont.woff?t=1644321303501') format('woff'),
+       url('iconfont.ttf?t=1644321303501') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 20px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.el-icon-score:before {
+  content: "\e699";
+  font-size: 20px;
+}
+
+.el-icon-education:before {
+  content: "\e66b";
+  font-size: 30px;
+}
+
+.el-icon-exam:before {
+  content: "\e65b";
+  font-size: 20px;
+}
+
+.el-icon-lesson:before {
+  content: "\e6a7";
+  font-size: 20px;
+}
+
+.el-icon-home:before {
+  content: "\e8c6";
+  font-size: 20px;
+}
+
+.el-icon-message:before {
+  content: "\e607";
+  font-size: 20px;
+}
+
+.el-icon-lightning:before {
+  content: "\e995";
+  font-size: 20px;
+}
+

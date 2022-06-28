@@ -1,0 +1,77 @@
+[
+  [
+    {
+      "name": "微机原理与接口技术B",
+      "teacher": "周宁宁",
+      "location": "@扬教3204",
+      "row": "2",
+      "bgc": "#e6f4ff",
+      "color": "#14adf3"
+    },
+    {
+      "name": "数字信号处理A",
+      "teacher": "孙金龙",
+      "location": "@扬教3204",
+      "row": "2",
+      "bgc": "#e1f8f2",
+      "color": "#3ac0af"
+    },
+    {}, {},
+    {
+      "name": "毛泽东思想和中国特色社会主义理论体系概论",
+      "teacher": "崇庆余",
+      "location": "@扬教3204",
+      "row": "2",
+      "bgc": "#feeeef",
+      "color": "#f25d76"
+    }, {}, {}
+  ],
+  [],
+  [{}, {},
+    {
+      "name": "微机原理与接口技术B",
+      "teacher": "周宁宁",
+      "location": "@扬教3204",
+      "row": "2",
+      "bgc": "#e6f4ff",
+      "color": "#14adf3"
+    }
+  ],
+  [{}, {},
+    {
+      "name": "数字信号处理A",
+      "teacher": "孙金龙",
+      "location": "@扬教3204",
+      "row": "2",
+      "bgc": "#e1f8f2",
+      "color": "#3ac0af"
+    }
+  ],
+  [],
+  [
+    {
+      "name": "现代管理科学基础",
+      "teacher": "穆向阳",
+      "location": "@扬教3204",
+      "row": "2",
+      "bgc": "#fceadc",
+      "color": "#fb856b"
+    },
+    {
+      "name": "毛泽东思想和中国特色社会主义理论体系概论",
+      "teacher": "崇庆余",
+      "location": "@扬教3204",
+      "row": "2",
+      "bgc": "#feeeef",
+      "color": "#f25d76"
+    }, {}, {},
+    {
+      "name": "科技英语",
+      "teacher": "金秀华",
+      "location": "@扬教3204",
+      "row": "2",
+      "bgc": "#e9f1fe",
+      "color": "#79a4fe"
+    },{}, {}
+  ]
+]

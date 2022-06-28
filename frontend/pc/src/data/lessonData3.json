@@ -1,0 +1,108 @@
+[
+  [{},
+    {
+      "name": "Matlab编程技术",
+      "teacher": "崔子冠",
+      "location": "@扬教3101",
+      "row": "2",
+      "bgc": "#fceadc",
+      "color": "#fb856b"
+    },
+    {
+      "name": "信号与系统A",
+      "teacher": "谢敏",
+      "location": "@扬教3101",
+      "row": "2",
+      "bgc": "#e6f4ff",
+      "color": "#14adf3"
+    },
+    {
+      "name": "大学英语IV",
+      "teacher": "张冠男",
+      "location": "@扬教1305",
+      "row": "2",
+      "bgc": "#e9f1fe",
+      "color": "#79a4fe"
+    },
+    {
+      "name": "概率统计和随机过程",
+      "teacher": "王发兴",
+      "location": "@扬教3101",
+      "row": "2",
+      "bgc": "#f9edfe",
+      "color": "#b96ae2"
+    },
+    {}, {}
+  ],
+  [{}, {}, {}],
+  [{},
+    {
+      "name": "概率统计和随机过程",
+      "teacher": "王发兴",
+      "location": "@扬教3101",
+      "row": "2",
+      "bgc": "#f9edfe",
+      "color": "#b96ae2"
+    }, {}, {},
+    {
+      "name": "马克思主义基本原理概论",
+      "teacher": "汪洋",
+      "location": "@扬教3101",
+      "row": "3",
+      "bgc": "#feeeef",
+      "color": "#f25d76"
+    }, {}, {}
+  ],
+  [{
+      "name": "信号与系统A",
+      "teacher": "谢敏",
+      "location": "@扬教3101",
+      "row": "2",
+      "bgc": "#e6f4ff",
+      "color": "#14adf3"
+    },
+    {
+      "name": "模拟电子线路A",
+      "teacher": "陆颖颖",
+      "location": "@扬教3101",
+      "row": "2",
+      "bgc": "#edecfe",
+      "color": "#807fe8"
+    }, {}, {}
+  ],
+  [{}, {}, {}, {}],
+  [{
+      "name": "文献检索与利用",
+      "teacher": "汤梅",
+      "location": "@扬教3101",
+      "row": "2",
+      "bgc": "#e1f8f2",
+      "color": "#3ac0af"
+    },
+    {
+      "name": "体育IV",
+      "teacher": "郭发明",
+      "location": "@运动场",
+      "row": "2",
+      "bgc": "#fff9c9",
+      "color": "#d3b429"
+    }, {},
+    {
+      "name": "电工电子实验（二）",
+      "teacher": "徐兆青",
+      "location": "@扬实1403",
+      "row": "4",
+      "bgc": "#feedf7",
+      "color": "#f06fbd"
+    },
+    {
+      "name": "模拟电子线路A",
+      "teacher": "陆颖颖",
+      "location": "@扬教3101",
+      "row": "2",
+      "bgc": "#edecfe",
+      "color": "#807fe8"
+    }, {}, {}
+  ],
+  [{}, {}, {}]
+]

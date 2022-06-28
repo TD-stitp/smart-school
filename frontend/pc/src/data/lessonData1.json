@@ -1,0 +1,122 @@
+[
+  [{
+      "name": "通信原理B",
+      "teacher": "储婉琴",
+      "location": "@扬教3201",
+      "row": "2",
+      "bgc": "#e6f4ff",
+      "color": "#14adf3"
+    },
+    {},
+    {
+      "name": "就业与创业指导",
+      "teacher": "杨俊",
+      "location": "@扬教3201",
+      "row": "2",
+      "bgc": "#fff9c9",
+      "color": "#d3b429"
+    },
+    {},
+    {
+      "name": "电视原理与数字视频",
+      "location": "@扬教3201",
+      "teacher": "卢官明",
+      "row": "2",
+      "bgc": "#feeeef",
+      "color": "#f25d76"
+    },
+    {}, {}
+  ],
+  [{}, {}, {}, {}],
+  [{
+      "name": "计算机图形学",
+      "location": "@扬教3201",
+      "teacher": "李欣2",
+      "row": "2",
+      "bgc": "#fceadc",
+      "color": "#fb856b"
+    },
+    {
+      "name": "数字图像与图像通信B",
+      "location": "@扬教3201",
+      "teacher": "崔子冠",
+      "row": "2",
+      "bgc": "#e9f1fe",
+      "color": "#79a4fe"
+    },
+    {},
+    {
+      "name": "信息论基础C",
+      "location": "@扬教3201",
+      "teacher": "许鹏",
+      "row": "2",
+      "bgc": "#f9edfe",
+      "color": "#b96ae2"
+    },
+    {}, {}, {}
+  ],
+  [{
+      "name": "通信原理B",
+      "teacher": "储婉琴",
+      "location": "@扬教3201",
+      "row": "2",
+      "bgc": "#e6f4ff",
+      "color": "#14adf3"
+    },
+    {
+      "name": "移动通信系统",
+      "teacher": "刘彬",
+      "location": "@扬教3201",
+      "row": "2",
+      "bgc": "#feedf7",
+      "color": "#f06fbd"
+    }, {}, {}
+  ],
+  [{}, {}, {}, {}, {}],
+  [{
+      "name": "操作系统",
+      "location": "@扬教3201",
+      "teacher": "赵建立",
+      "row": "2",
+      "bgc": "#ddfaf6",
+      "color": "#41b7cb"
+    },
+    {
+      "name": "语音信号与数字音频",
+      "location": "@扬教3201",
+      "teacher": "邓立新",
+      "row": "2",
+      "bgc": "#e1f8f2",
+      "color": "#3ac0af"
+    }, {},
+    {
+      "name": "JAVA编程技术",
+      "location": "@扬教3201",
+      "teacher": "撒同良",
+      "row": "2",
+      "bgc": "#C5FFC5",
+      "color": "#04BB04"
+    },
+    {
+      "name": "数字图像与图像通信B",
+      "location": "@扬教3201",
+      "teacher": "崔子冠",
+      "row": "2",
+      "bgc": "#e9f1fe",
+      "color": "#79a4fe"
+    }, {}, {}
+  ],
+  [{}, {}, {}],
+  [{
+    "name": "嵌入式系统与应用",
+    "location": "@扬教3201",
+    "teacher": "李欣2",
+    "row": "2",
+    "bgc": "#edecfe",
+    "color": "#807fe8"
+  }, {}, {}, {}, {}, {}, {}],
+  [{}, {}, {}, {}, {}, {}],
+  [{}, {}, {}, {}, {}, {}, {}],
+  [{}, {}, {}, {}, {}, {}, {}],
+  [{}, {}, {}, {}, {}, {}, {}]
+]
