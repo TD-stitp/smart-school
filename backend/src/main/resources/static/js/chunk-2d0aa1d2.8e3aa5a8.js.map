@@ -1,0 +1,22 @@
+{
+  "version": 3,
+  "sources": [
+    "webpack:///./src/pages/admin/pages/FaqPage.vue",
+    "webpack:///./src/pages/admin/pages/FaqPage.vue?1ff2"
+  ],
+  "names": [
+    "class",
+    "prepend",
+    "name",
+    "header",
+    "data",
+    "render"
+  ],
+  "mappings": "0IACOA,MAAM,mB,GACJA,MAAM,Y,+BAEQ,gC,GAYdA,MAAM,O,+BAEQ,gC,EAMT,gCAEM,OAFDA,MAAM,QAAO,iKAElB,G,EAGA,gCAEM,OAFDA,MAAM,QAAO,iKAElB,G,EAGA,gCAEM,OAFDA,MAAM,QAAO,iKAElB,G,EAGA,gCAEM,OAFDA,MAAM,QAAO,iKAElB,G,EAGA,gCAEM,OAFDA,MAAM,QAAO,iKAElB,G,kYA7CZ,gCAmDM,MAnDN,EAmDM,CAlDJ,gCAaM,MAbN,EAaM,CAZJ,yBAWU,GAXDA,MAAM,aAAW,C,8BACxB,iBAEgB,CAFhB,yBAEgB,Q,8BAFD,iBAEf,C,YACA,yBAMkB,Q,8BALhB,iBAIW,CAJX,yBAIW,QAHEC,QAAO,sBAChB,iBAAyB,CAAzB,yBAAyB,GAAhBC,KAAK,e,4BAMxB,gCAmCM,MAnCN,EAmCM,CAlCJ,yBAiCU,GAjCDF,MAAM,aAAW,C,8BACxB,iBAEgB,CAFhB,yBAEgB,Q,8BAFD,iBAEf,C,YACA,yBA4BkB,Q,8BA3BhB,iBA0BkB,CA1BlB,yBA0BkB,Q,8BAzBhB,iBAIY,CAJZ,yBAIY,GAJDA,MAAM,OAAOG,OAAO,kB,+BAC7B,iBAEM,CAFN,M,MAIF,yBAIY,GAJDH,MAAM,OAAOG,OAAO,mB,+BAC7B,iBAEM,CAFN,M,MAIF,yBAIY,GAJDH,MAAM,OAAOG,OAAO,kB,+BAC7B,iBAEM,CAFN,M,MAIF,yBAIY,GAJDH,MAAM,OAAOG,OAAO,mB,+BAC7B,iBAEM,CAFN,M,MAIF,yBAIY,GAJDH,MAAM,OAAOG,OAAO,kB,+BAC7B,iBAEM,CAFN,M,wCAYC,OACbD,KAAM,WACNE,KAFa,WAGX,MAAO,KCxDX,EAAOC,OAASA,EAED",
+  "file": "js/chunk-2d0aa1d2.8e3aa5a8.js",
+  "sourcesContent": [
+    "<template>\r\n  <div class=\"not-found-pages\">\r\n    <div class=\"row mb-4\">\r\n      <va-card class=\"flex xs12\">\r\n        <va-card-title>\r\n          Do you have any questions?\r\n        </va-card-title>\r\n        <va-card-content>\r\n          <va-input>\r\n            <template #prepend>\r\n              <va-icon name=\"search\" />\r\n            </template>\r\n          </va-input>\r\n        </va-card-content>\r\n      </va-card>\r\n    </div>\r\n    <div class=\"row\">\r\n      <va-card class=\"flex xs12\">\r\n        <va-card-title>\r\n          Frequently Asked Questions\r\n        </va-card-title>\r\n        <va-card-content>\r\n          <va-expand-group>\r\n            <va-expand class=\"mb-4\" header=\"First question\">\r\n              <div class=\"pa-3\">\r\n                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo veniam provident voluptates consequuntur nostrum cumque possimus unde asperiores magnam rem.\r\n              </div>\r\n            </va-expand>\r\n            <va-expand class=\"mb-4\" header=\"Second question\">\r\n              <div class=\"pa-3\">\r\n                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo veniam provident voluptates consequuntur nostrum cumque possimus unde asperiores magnam rem.\r\n              </div>\r\n            </va-expand>\r\n            <va-expand class=\"mb-4\" header=\"Third question\">\r\n              <div class=\"pa-3\">\r\n                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo veniam provident voluptates consequuntur nostrum cumque possimus unde asperiores magnam rem.\r\n              </div>\r\n            </va-expand>\r\n            <va-expand class=\"mb-4\" header=\"Fourth question\">\r\n              <div class=\"pa-3\">\r\n                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo veniam provident voluptates consequuntur nostrum cumque possimus unde asperiores magnam rem.\r\n              </div>\r\n            </va-expand>\r\n            <va-expand class=\"mb-4\" header=\"Fifth question\">\r\n              <div class=\"pa-3\">\r\n                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo veniam provident voluptates consequuntur nostrum cumque possimus unde asperiores magnam rem.\r\n              </div>\r\n            </va-expand>\r\n          </va-expand-group>\r\n        </va-card-content>\r\n      </va-card>\r\n    </div>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nexport default {\r\n  name: 'faq-page',\r\n  data () {\r\n    return {\r\n    }\r\n  },\r\n}\r\n</script>\r\n",
+    "import { render } from \"./FaqPage.vue?vue&type=template&id=11c73b20\"\nimport script from \"./FaqPage.vue?vue&type=script&lang=js\"\nexport * from \"./FaqPage.vue?vue&type=script&lang=js\"\nscript.render = render\n\nexport default script"
+  ],
+  "sourceRoot": ""
+}

@@ -1,0 +1,40 @@
+{
+  "version": 3,
+  "sources": [
+    "webpack:///./src/pages/admin/maps/google-maps/GoogleMapsPage.vue",
+    "webpack:///./src/pages/admin/maps/google-maps/GoogleMap.vue",
+    "webpack:///./src/pages/admin/maps/google-maps/GoogleMap.vue?daf8",
+    "webpack:///./src/pages/admin/maps/google-maps/GoogleMapsPage.vue?79f3"
+  ],
+  "names": [
+    "class",
+    "title",
+    "style",
+    "name",
+    "mounted",
+    "VUE_APP_GOOGLE_MAPS_API_KEY",
+    "Error",
+    "google",
+    "maps",
+    "Map",
+    "$el",
+    "center",
+    "LatLng",
+    "zoom",
+    "mapTypeId",
+    "MapTypeId",
+    "ROADMAP",
+    "render",
+    "components",
+    "GoogleMap"
+  ],
+  "mappings": "4IACOA,MAAM,oB,GACJA,MAAM,O,GACJA,MAAM,kB,qJAFf,gCAWM,MAXN,EAWM,CAVJ,gCASM,MATN,EASM,CARJ,gCAOM,MAPN,EAOM,CANJ,yBAKU,GAJRA,MAAM,2BACNC,MAAM,e,+BAEN,iBAAoC,CAApC,yBAAoC,GAAxBC,MAAA,sB,mBCPfF,MAAM,0B,wDAAX,gCAAsC,MAAtC,G,gBAMa,GACbG,KAAM,aAENC,QAHa,WAGF,WACT,IAAK,6CAAYC,4BACf,MAAM,IAAIC,MAAM,6EAGlB,SAAuB,6CAAYD,4BAInC,aAA2B,OAC3B,WAAsB,SAACE,GAErB,IAAIA,EAAOC,KAAKC,IAAI,EAAKC,IAAK,CAC5BC,OAAQ,IAAIJ,EAAOC,KAAKI,OAAO,SAAU,SACzCC,KAAM,EACNC,UAAWP,EAAOC,KAAKO,UAAUC,eCtBzC,EAAOC,OAAS,EAED,QFaA,GACbd,KAAM,mBACNe,WAAY,CACVC,cGlBJ,EAAOF,OAASA,EAED,gB",
+  "file": "js/chunk-1024f0c9.e7535698.js",
+  "sourcesContent": [
+    "<template>\r\n  <div class=\"google-maps-page\">\r\n    <div class=\"row\">\r\n      <div class=\"flex md12 xs12\">\r\n        <va-card\r\n          class=\"google-maps-page__widget\"\r\n          title=\"Google Maps\"\r\n        >\r\n          <google-map style=\"height: 65vh;\" />\r\n        </va-card>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nimport GoogleMap from './GoogleMap'\r\n\r\nexport default {\r\n  name: 'google-maps-page',\r\n  components: {\r\n    GoogleMap,\r\n  },\r\n}\r\n</script>\r\n",
+    "<template>\r\n  <div class=\"google-map fill-height\" />\r\n</template>\r\n\r\n<script>\r\nimport * as GoogleMapsLoader from 'google-maps'\r\n\r\nexport default {\r\n  name: 'google-map',\r\n\r\n  mounted () {\r\n    if (!process.env.VUE_APP_GOOGLE_MAPS_API_KEY) {\r\n      throw new Error('Please provide google maps api key from env (VUE_APP_GOOGLE_MAPS_API_KEY)')\r\n    }\r\n\r\n    GoogleMapsLoader.KEY = process.env.VUE_APP_GOOGLE_MAPS_API_KEY\r\n    /* We stick to version updates instead of weekly channel update because\r\n       using weekly updates you need to test them, but we prefer to use stable\r\n       versions. */\r\n    GoogleMapsLoader.VERSION = '3.35'\r\n    GoogleMapsLoader.load((google) => {\r\n      /* eslint-disable no-new */\r\n      new google.maps.Map(this.$el, {\r\n        center: new google.maps.LatLng(44.5403, -78.5463),\r\n        zoom: 8,\r\n        mapTypeId: google.maps.MapTypeId.ROADMAP,\r\n      })\r\n    })\r\n  },\r\n}\r\n</script>\r\n",
+    "import { render } from \"./GoogleMap.vue?vue&type=template&id=30b13bbf\"\nimport script from \"./GoogleMap.vue?vue&type=script&lang=js\"\nexport * from \"./GoogleMap.vue?vue&type=script&lang=js\"\nscript.render = render\n\nexport default script",
+    "import { render } from \"./GoogleMapsPage.vue?vue&type=template&id=07a97df9\"\nimport script from \"./GoogleMapsPage.vue?vue&type=script&lang=js\"\nexport * from \"./GoogleMapsPage.vue?vue&type=script&lang=js\"\nscript.render = render\n\nexport default script"
+  ],
+  "sourceRoot": ""
+}

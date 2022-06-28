@@ -1,0 +1,30 @@
+{
+  "version": 3,
+  "sources": [
+    "webpack:///./src/pages/admin/pages/404PagesPage.vue",
+    "webpack:///./src/pages/admin/pages/404PagesPage.vue?ae3c"
+  ],
+  "names": [
+    "class",
+    "items",
+    "item",
+    "index",
+    "key",
+    "src",
+    "imageUrl",
+    "style",
+    "label",
+    "to",
+    "buttonTo",
+    "name",
+    "data",
+    "render"
+  ],
+  "mappings": "0IACOA,MAAM,mB,GACJA,MAAM,O,GAYEA,MAAM,+C,4DAEJ,iB,mPAfjB,gCAsBM,MAtBN,EAsBM,CArBJ,gCAoBM,MApBN,EAoBM,E,2BAnBJ,gCAkBM,2CAhBoB,EAAAC,OAAK,SAArBC,EAAMC,G,gCAFhB,gCAkBM,OAjBJH,MAAM,wBAELI,IAAKD,G,CAEN,yBAYU,GAXRH,MAAM,uCAAqC,C,8BAE3C,iBAA2D,CAA3D,yBAA2D,GAAhDK,IAAKH,EAAKI,SAAUC,MAAA,wB,gBAC/B,yBAOkB,Q,8BANhB,iBAAgB,C,0DAAbL,EAAKM,OAAQ,IAChB,mCAIM,MAJN,EAIM,CAHJ,yBAEY,GAFAC,GAAE,MAAUP,EAAKQ,W,+BAC3B,iBAAoB,C,uEAWrB,OACbC,KAAM,kBACNC,KAFa,WAGX,MAAO,CACLX,MAAO,CACL,CACEK,SAAU,kCACVE,MAAO,kBACPE,SAAU,sBAEZ,CACEJ,SAAU,kCACVE,MAAO,SACPE,SAAU,oBAEZ,CACEJ,SAAU,kCACVE,MAAO,eACPE,SAAU,oBAEZ,CACEJ,SAAU,kCACVE,MAAO,qBACPE,SAAU,4BC/CpB,EAAOG,OAASA,EAED",
+  "file": "js/chunk-2d210f9a.0c6e2f64.js",
+  "sourcesContent": [
+    "<template>\r\n  <div class=\"not-found-pages\">\r\n    <div class=\"row\">\r\n      <div\r\n        class=\"flex xs12 sm6 lg4 xl3\"\r\n        v-for=\"(item, index) in items\"\r\n        :key=\"index\"\r\n      >\r\n        <va-card\r\n          class=\"not-found-pages__cards text--center\"\r\n        >\r\n          <va-image :src=\"item.imageUrl\" style=\"max-height: 200px;\"/>\r\n          <va-card-content>\r\n            {{ item.label }}\r\n            <div class=\"not-found-pages__button-container pt-3 mb-0\">\r\n              <va-button :to=\"{ name: item.buttonTo }\">\r\n                {{ 'View Example' }}\r\n              </va-button>\r\n            </div>\r\n          </va-card-content>\r\n        </va-card>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nexport default {\r\n  name: 'not-found-pages',\r\n  data () {\r\n    return {\r\n      items: [\r\n        {\r\n          imageUrl: 'https://i.imgur.com/GzUR0Wz.png',\r\n          label: 'Advanced layout',\r\n          buttonTo: 'not-found-advanced',\r\n        },\r\n        {\r\n          imageUrl: 'https://i.imgur.com/HttcXPi.png',\r\n          label: 'Simple',\r\n          buttonTo: 'not-found-simple',\r\n        },\r\n        {\r\n          imageUrl: 'https://i.imgur.com/dlcZMiG.png',\r\n          label: 'Custom image',\r\n          buttonTo: 'not-found-custom',\r\n        },\r\n        {\r\n          imageUrl: 'https://i.imgur.com/qcOlDz7.png',\r\n          label: 'Large text heading',\r\n          buttonTo: 'not-found-large-text',\r\n        },\r\n      ],\r\n    }\r\n  },\r\n}\r\n</script>\r\n",
+    "import { render } from \"./404PagesPage.vue?vue&type=template&id=3f1693dc\"\nimport script from \"./404PagesPage.vue?vue&type=script&lang=js\"\nexport * from \"./404PagesPage.vue?vue&type=script&lang=js\"\nscript.render = render\n\nexport default script"
+  ],
+  "sourceRoot": ""
+}

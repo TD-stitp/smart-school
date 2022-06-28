@@ -1,0 +1,27 @@
+{
+  "version": 3,
+  "sources": [
+    "webpack:///./src/pages/auth/recover-password/RecoverPassword.vue",
+    "webpack:///./src/pages/auth/recover-password/RecoverPassword.vue?ec7a"
+  ],
+  "names": [
+    "class",
+    "onsubmit",
+    "name",
+    "data",
+    "email",
+    "emailErrors",
+    "methods",
+    "this",
+    "$router",
+    "push",
+    "render"
+  ],
+  "mappings": "yIAEI,gCASM,OATDA,MAAM,YAAU,S,EAUrB,gCAEM,OAFDA,MAAM,uBAAqB,S,GAVhC,EAUA,G,wDAXF,gCAcO,QAdA,SAAM,0DAAU,EAAAC,UAAA,EAAAA,SAAA,qBAAQ,cAAED,MAAM,S,MAkB1B,OACbE,KAAM,mBACNC,KAFa,WAGX,MAAO,CACLC,MAAO,GACPC,YAAa,KAGjBC,QAAS,CACPL,SADO,WAEAM,KAAKH,MAGRG,KAAKC,QAAQC,KAAK,KAFlBF,KAAKF,YAAc,CAAC,wBC3B5B,EAAOK,OAASA,EAED",
+  "file": "js/chunk-2d21d18e.12952d41.js",
+  "sourcesContent": [
+    "<template>\r\n  <form @submit.prevent=\"onsubmit\" class=\"login\">\r\n    <div class=\"row mb-2\">\r\n      <!-- <va-input\r\n        class=\"mb-3\"\r\n        v-model=\"email\"\r\n        type=\"email\"\r\n        :label=\"$t('auth.email')\"\r\n        :error=\"!!emailErrors.length\"\r\n        :error-messages=\"emailErrors\"\r\n      /> -->\r\n    </div>\r\n    <div class=\"row justify--center\">\r\n      <!-- <va-button type=\"submit\" class=\"my-0\">{{ $t('auth.reset_password') }}</va-button> -->\r\n    </div>\r\n  </form>\r\n</template>\r\n\r\n<script>\r\nexport default {\r\n  name: 'recover-password',\r\n  data () {\r\n    return {\r\n      email: '',\r\n      emailErrors: [],\r\n    }\r\n  },\r\n  methods: {\r\n    onsubmit () {\r\n      if (!this.email) {\r\n        this.emailErrors = ['Email is required']\r\n      } else {\r\n        this.$router.push('/')\r\n      }\r\n    },\r\n  },\r\n}\r\n</script>\r\n\r\n<style lang=\"scss\">\r\n</style>\r\n",
+    "import { render } from \"./RecoverPassword.vue?vue&type=template&id=1f88f0a9\"\nimport script from \"./RecoverPassword.vue?vue&type=script&lang=js\"\nexport * from \"./RecoverPassword.vue?vue&type=script&lang=js\"\nscript.render = render\n\nexport default script"
+  ],
+  "sourceRoot": ""
+}

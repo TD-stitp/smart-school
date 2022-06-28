@@ -1,0 +1,37 @@
+{
+  "version": 3,
+  "sources": [
+    "webpack:///./src/pages/admin/ui/color-pickers/ColorPickers.vue",
+    "webpack:///./src/pages/admin/ui/color-pickers/ColorPickers.vue?35ac"
+  ],
+  "names": [
+    "class",
+    "$t",
+    "style",
+    "theme",
+    "primary",
+    "topSimpleSquareColor",
+    "palette",
+    "mode",
+    "topSliderSquareColor",
+    "topAdvancedSquareColor",
+    "value",
+    "simpleColor",
+    "sliderColor",
+    "advancedColor",
+    "name",
+    "data",
+    "mounted",
+    "computed",
+    "getGlobalConfig",
+    "colors",
+    "render"
+  ],
+  "mappings": "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",
+  "file": "js/chunk-2d2077c5.46aa1e69.js",
+  "sourcesContent": [
+    "<template>\r\n  <div class=\"color-pickers vuestic-color-picker-page\">\r\n    <div class=\"row\">\r\n      <div class=\"flex md12 xs12\">\r\n        <va-card>\r\n          <va-card-title>{{ $t('menu.colorPickers') }}</va-card-title>\r\n          <va-card-content class=\"row\">\r\n            <div class=\"flex xs4 md2\">\r\n              <div class=\"vuestic-color-picker-page__top-square\">\r\n                <span\r\n                  class=\"title no-wrap\"\r\n                  :style=\"{color: theme.primary}\"\r\n                >\r\n                  {{ $t('colorPickers.simple') }}\r\n                </span>\r\n                <va-color-picker\r\n                  v-model=\"topSimpleSquareColor\"\r\n                  :palette=\"palette\"\r\n                />\r\n              </div>\r\n            </div>\r\n            <div class=\"flex xs4 md2\">\r\n              <div class=\"vuestic-color-picker-page__top-square\">\r\n                <span\r\n                  class=\"title no-wrap\"\r\n                  :style=\"{color: theme.primary}\"\r\n                >\r\n                  {{ $t('colorPickers.slider') }}\r\n                </span>\r\n                <va-color-picker\r\n                  mode=\"slider\"\r\n                  v-model=\"topSliderSquareColor\"\r\n                />\r\n              </div>\r\n            </div>\r\n            <div class=\"flex xs4 md2\">\r\n              <div class=\"vuestic-color-picker-page__top-square\">\r\n                <span\r\n                  class=\"title no-wrap\"\r\n                  :style=\"{color: theme.primary}\"\r\n                >\r\n                  {{ $t('colorPickers.advanced') }}\r\n                </span>\r\n                <va-color-input\r\n                  mode=\"advanced\"\r\n                  v-model=\"topAdvancedSquareColor\"\r\n                />\r\n              </div>\r\n            </div>\r\n          </va-card-content>\r\n        </va-card>\r\n      </div>\r\n    </div>\r\n    <div class=\"row\">\r\n      <div class=\"flex md12 xs12\">\r\n        <va-card>\r\n          <va-card-title>Simple Inline</va-card-title>\r\n          <va-card-content class=\"row\">\r\n            <div class=\"flex md1\">\r\n              <va-color-square :value=\"simpleColor\"/>\r\n            </div>\r\n            <div class=\"flex md2\">\r\n              <va-color-palette :palette=\"palette\" v-model=\"simpleColor\"/>\r\n            </div>\r\n          </va-card-content>\r\n        </va-card>\r\n      </div>\r\n    </div>\r\n    <div class=\"row\">\r\n      <div class=\"flex md12 xs12\">\r\n        <va-card>\r\n          <va-card-title>Slider</va-card-title>\r\n          <va-card-content class=\"row\">\r\n            <div class=\"flex xs12 md1\">\r\n              <va-color-square :value=\"sliderColor\"/>\r\n            </div>\r\n            <div class=\"flex md6 xs12\">\r\n              <va-color-slider v-model=\"sliderColor\"/>\r\n            </div>\r\n          </va-card-content>\r\n        </va-card>\r\n      </div>\r\n    </div>\r\n    <div class=\"row\">\r\n      <div class=\"flex md12 xs12\">\r\n        <va-card>\r\n          <va-card-title>Advanced</va-card-title>\r\n          <va-card-content class=\"row\">\r\n            <div class=\"flex md1\">\r\n              <va-color-square :value=\"advancedColor\"/>\r\n            </div>\r\n            <div class=\"flex md7\">\r\n              <va-color-picker v-model=\"advancedColor\"/>\r\n            </div>\r\n          </va-card-content>\r\n        </va-card>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nimport { useGlobalConfig } from 'vuestic-ui'\r\n\r\nexport default {\r\n  name: 'color-pickers',\r\n  data () {\r\n    return {\r\n      topSimpleSquareColor: '#f81953',\r\n      topSliderSquareColor: '#34495e',\r\n      topAdvancedSquareColor: '#ffd50a',\r\n      sliderColor: '#2e5e2a',\r\n      advancedColor: '#ffd50a',\r\n      simpleColor: '#f81953',\r\n      palette: [],\r\n    }\r\n  },\r\n  mounted() {\r\n    // this.palette = Object.values(this.theme)\r\n  },\r\n  computed: {\r\n    theme() { return useGlobalConfig().getGlobalConfig().colors }\r\n  }\r\n}\r\n</script>\r\n",
+    "import { render } from \"./ColorPickers.vue?vue&type=template&id=40bafaba\"\nimport script from \"./ColorPickers.vue?vue&type=script&lang=js\"\nexport * from \"./ColorPickers.vue?vue&type=script&lang=js\"\nscript.render = render\n\nexport default script"
+  ],
+  "sourceRoot": ""
+}
